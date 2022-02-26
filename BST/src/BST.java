@@ -76,9 +76,9 @@ public class BST<T extends Comparable<T>> {
 	public int getHeight() {
 		    if (isEmpty()) return 0;
 		    else {
-					return (1 + (Math.max(
-									left == null ? 0 : left.getHeight(),
-									right == null ? 0 : right.getHeight())));
+				return (1 + (Math.max(
+					left == null ? 0 : left.getHeight(),
+					right == null ? 0 : right.getHeight())));
 				}
 				
 			}
